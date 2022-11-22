@@ -10,13 +10,6 @@
 
 / {
         keymap {
-                #DEFINE QMAC    0;
-                #DEFINE QWIN    1;
-                #DEFINE CMAC    2;
-                #DEFINE CWIN    3;
-                #DEFINE LOWER   4;
-                #DEFINE RAISE   5;
-                #DEFINE ADJUST  6;
                 compatible = "zmk,keymap";
 
                 qmac_layer {
@@ -110,7 +103,7 @@
 // |      |     |     |     |     |     |   |     | BRI-| BRI+|     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &tog QMAC  &tog QWIN      &tog CMAC     &tog CWIN &none &kp C_AL_LOCK
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &tog 0     &tog 1         &tog 3        &tog 4    &none &kp C_AL_LOCK
    &none      &none        &none        &kp C_PREV   &kp C_PP     &kp C_NEXT     &kp C_MUTE &kp C_VOL_DOWN &kp C_VOL_UP  &none     &none &none
    &none      &none        &none        &none        &none        &none          &none      &none          &none         &none     &none &none
                     	                &none        &trans       &none          &none      &trans         &none
