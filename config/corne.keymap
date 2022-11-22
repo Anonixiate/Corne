@@ -10,13 +10,13 @@
 
 / {
         keymap {
-                #DEFINE QMAC    0
-                #DEFINE QWIN    1
-                #DEFINE CMAC    2
-                #DEFINE CWIN    3
-                #DEFINE LOWER   4
-                #DEFINE RAISE   5
-                #DEFINE ADJUST  6
+                #DEFINE QMAC    0;
+                #DEFINE QWIN    1;
+                #DEFINE CMAC    2;
+                #DEFINE CWIN    3;
+                #DEFINE LOWER   4;
+                #DEFINE RAISE   5;
+                #DEFINE ADJUST  6;
                 compatible = "zmk,keymap";
 
                 qmac_layer {
